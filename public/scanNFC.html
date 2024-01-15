@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFC </title>
+    <link rel="icon" type="image/x-icon" href="logosm.png">
+    <!-- Include your Firebase and JavaScript files -->
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- jQuery JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Bootstrap JavaScript (termasuk Popper.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Font Awesome CSS -->
+    <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- script cek database -->
+    <script src="rfid.js" defer></script>
+</head>
+
+<body>
+
+    <br>
+    <br>
+    <br>
+    <div class="container-fluid bg-trasparent my-4 p-3" style="position: relative">
+        <div class="row row-cols" style="margin-top:-40px;">
+
+            <div class="col">
+
+                <div class="card shadow-sm" style="height: 700px; border-radius: 1rem;" id="animasi">
+                    <br>
+                    <br>
+                    <br>
+                    <img src="image/image 16.png" class="card-img-top" alt="..."
+                        style="width: 300px;margin-inline-start: 465px;" />
+                    <img src="image/contactless 1.png" class="card-img-top" alt="..."
+                        style="width: 300px;margin-inline-start: 465px; margin-bottom: 50px;" />
+                    <div class="card-body">
+                        <div class="clearfix mb-3">
+                        </div>
+                        <h4 class="text-start" style="margin-inline-start: 120px;">
+                            How to use:
+                        </h4>
+                        <p class="text-start" style="margin-inline-start: 120px;margin-top: 1px;margin-bottom: 50px;">
+                            1. Quick Scan NFC: Stick the card on the NFC Reader of this vending machine. <br>
+                            2. Confirm Personal Details: Review your details on the vending machine screen and confirm
+                            to proceed.
+                            <br>
+                            3. Insert Your Bottle: Find the designated slot on the vending machine to deposit the
+                            bottle. <br>
+                            4. Receive Points: Once the bottle is accepted, the points will be credited to your
+                            Sampahmas account.
+                            <br>
+                            5. Redeem Points: Use the accumulated points for discounts on the Sampahmas e-commerce
+                            platform. <br>
+                        </p>
+                        <!-- <div class="d-grid gap-2 my-4" style="margin-inline-start: 100px;margin-right: 100px;">
+                            <a href="point.html" class="btn btn-primary"
+                                style="background-color: #30D6AF; color: white;border-radius: 0.4rem;width: 100%; border-style: none;">Continue</a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
